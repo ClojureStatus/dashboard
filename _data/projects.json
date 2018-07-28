@@ -1,6 +1,6 @@
 [
 
-    {"name":"leiningen", "badge":"https://circleci.com/gh/technomancy/leiningen.svg?style=svg", "repo":"https://github.com/technomancy/leiningen", "v18": true, "v19": true},
+    {"name":"leiningen", "badge":"https://circleci.com/gh/technomancy/leiningen.svg?style=svg", "repo":"https://github.com/technomancy/leiningen", "v19": "0", "v110": "0-alpha6"},
 
     {"name":"boot", "badge": "https://travis-ci.org/boot-clj/boot.svg?branch=master", "repo":"https://github.com/boot-clj/boot"},
 

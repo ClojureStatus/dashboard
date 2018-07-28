@@ -24,8 +24,9 @@ text-align:left;
     <th>Name</th>
     <th>Repo</th>
     <th>Build</th>
-    <th>v1.8</th>
-    <th>v1.9</th></tr>
+    <th>v1.9</th>
+    <th>v1.10</th>
+    </tr>
   </thead>
 
   <tbody>
@@ -36,8 +37,8 @@ text-align:left;
     <td>{{ project.name }}</td>
     <td><a href="{{ project.repo }}">{{ project.repo }}</a></td>
     <td><img src="{{ project.badge }}" alt="{{project.name}} status badge"/></td>
-    <td>{% if project.v18 %}&#10004;{% endif %}</td>
-    <td>{% if project.v19 %}&#10004;{% endif %}</td>
+    <td>{% if project.v19 %}1.9.{{ project.v19 }}{% endif %}</td>
+    <td>{% if project.v110 %}1.10.{{ project.v110 }}{% endif %}</td>
     </tr>
     {% endif %}
   {% endfor %}
@@ -77,10 +78,12 @@ The current fields are as follows;
 <dd>Your projects build badge image URL.</dd>
 <dt>repo</dt>
 <dd>Your projects repository URL.</dd>
-<dt>v18</dt>
-<dd>Indicates your project is Clojure v1.8 compatible.</dd>
 <dt>v19</dt>
-<dd>Indicates your project is Clojure v1.9 compatible.</dd>
+<dd>Indicates your project is Clojure v1.9 compatible to the minor release
+specified.</dd>
+<dt>v110</dt>
+<dd>Indicates your project is Clojure v1.10 compatible to the minor release
+specified.</dd>
 </dl>
 
 ## Periodic Builds
