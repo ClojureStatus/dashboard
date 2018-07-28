@@ -1,0 +1,16 @@
+[
+
+    {"name":"leiningen", "badge":"https://circleci.com/gh/technomancy/leiningen.svg?style=svg", "repo":"https://github.com/technomancy/leiningen", "v18": true, "v19": true},
+
+    {"name":"boot", "badge": "https://travis-ci.org/boot-clj/boot.svg?branch=master", "repo":"https://github.com/boot-clj/boot"},
+
+    {"name":"ring", "badge": "https://travis-ci.org/ring-clojure/ring.svg?branch=master", "repo":"https://github.com/ring-clojure/ring"},
+
+    {"name":"pedestal", "badge": "https://travis-ci.org/pedestal/pedestal.svg?branch=master", "repo":"https://github.com/pedestal/pedestal"},
+
+    {"name":"clojure.java-time", "badge": "https://travis-ci.org/dm3/clojure.java-time.svg?branch=master", "repo":"https://github.com/dm3/clojure.java-time"},
+
+    {"name":"hiccup", "badge": "https://travis-ci.org/weavejester/hiccup.svg?branch=master", "repo":"https://github.com/weavejester/hiccup"},
+
+    {"info": "^^ add your project above me with ensuring it has 1 empty newline above and below ^^"}
+]
