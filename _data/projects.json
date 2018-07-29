@@ -12,5 +12,9 @@
 
     {"name":"hiccup", "badge": "https://travis-ci.org/weavejester/hiccup.svg?branch=master", "repo":"https://github.com/weavejester/hiccup"},
 
+    {"name":"clj-time", "badge": "https://travis-ci.org/clj-time/clj-time.svg?branch=master", "repo":"https://github.com/clj-time/clj-time", "v19": "0", "v110": "0-alpha6"},
+
+    {"name":"honeysql", "badge": "https://travis-ci.org/jkk/honeysql.svg?branch=master", "repo":"https://github.com/jkk/honeysql", "v19": "0", "v110": "0-alpha6"},
+
     {"info": "^^ add your project above me with ensuring it has 1 empty newline above and below ^^"}
 ]
