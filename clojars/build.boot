@@ -4,9 +4,12 @@
 (set-env! :resource-paths #{"resources" "src"}
           :source-paths   #{"test"}
           :offline?       true
-          :dependencies   '[[org.clojure/clojure "1.10.0-alpha6"]
+          :dependencies   '[[adzerk/boot-test "1.2.0" :scope "test"]
                             [clj-http "3.9.0"]
-                            [adzerk/boot-test "1.2.0" :scope "test"]])
+                            [org.clojure/clojure "1.10.0-alpha6"]
+                            [org.clojure/data.json "0.2.6"]
+                            [proto-repl "0.3.1" :scopep "test"]])
+
 
 (task-options!
   aot {:namespace   #{'clojars.core}}

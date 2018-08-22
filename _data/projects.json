@@ -1,4 +1,5 @@
 [
+    {"info": "add your project to the tail of this list"},
 
     {"name":"leiningen", "badge":"https://circleci.com/gh/technomancy/leiningen.svg?style=svg", "repo":"https://github.com/technomancy/leiningen", "v19": "0", "v110": "0-alpha6"},
 
@@ -12,5 +13,5 @@
 
     {"name":"hiccup", "badge": "https://travis-ci.org/weavejester/hiccup.svg?branch=master", "repo":"https://github.com/weavejester/hiccup"},
 
-    {"info": "^^ add your project above me with ensuring it has 1 empty newline above and below ^^"}
+    {"info": "^^ add your project above me ensuring it has 1 empty newline above and below ^^"}
 ]
