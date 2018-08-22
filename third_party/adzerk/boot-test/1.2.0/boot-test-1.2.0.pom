@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>adzerk</groupId>
+  <artifactId>boot-test</artifactId>
+  <version>1.2.0</version>
+  <name>boot-test</name>
+  <description>Run some tests in boot!</description>
+  <url>https://github.com/adzerk/boot-test</url>
+  <licenses>
+    <license>
+      <url>http://www.eclipse.org/legal/epl-v10.html</url>
+      <name>Eclipse Public License</name>
+      <comments/>
+    </license>
+  </licenses>
+  <packaging>jar</packaging>
+  <scm>
+    <url>https://github.com/adzerk/boot-test</url>
+    <tag>a74ea6b7d3f26209cdc820f9f9dcfd951292aff3</tag>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>adzerk</groupId>
+      <artifactId>bootlaces</artifactId>
+      <version>0.1.13</version>
+      <scope>test</scope>
+      <exclusions/>
+    </dependency>
+  </dependencies>
+</project>
