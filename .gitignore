@@ -4,3 +4,6 @@ _site/
 .jekyll-metadata
 /bin
 /vendor
+target
+.nrepl-history
+.hgignore
