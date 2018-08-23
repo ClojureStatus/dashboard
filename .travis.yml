@@ -5,4 +5,4 @@ jdk:
   - oraclejdk11
 
 script:
-  - /bin/sh -c "Hello world!"
+  - /bin/sh -c "echo 'Hello world!'"
