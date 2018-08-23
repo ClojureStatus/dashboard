@@ -22,7 +22,7 @@
 (defn by-last [a b]
   (compare (last b) (last a)))
 
-(defn sort-pkgs [pkgs]
+(defn downloads-by-version [pkgs]
   (->> pkgs
        (map mpkg)
        (mapcat identity)
@@ -31,7 +31,7 @@
 (defn sumpkg [[pkg vers]]
   (conj pkg (apply + (vals vers))))
 
-(defn sum-pkgs [pkgs]
+(defn downloads-by-package [pkgs]
   (->> pkgs
        (map sumpkg)
        (sort by-last)))
@@ -39,5 +39,5 @@
 (defn -main
   [statsfile & args]
   (let [pkgs (get-download-stats statsfile)]
-    (pp/pprint (take 20 (sum-pkgs pkgs)))
-    (pp/pprint (take 20 (sort-pkgs pkgs)))))
+    (pp/pprint (take 20 (downloads-by-version pkgs)))
+    (pp/pprint (take 20 (downloads-by-package pkgs)))))
